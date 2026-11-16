@@ -1,5 +1,7 @@
 # Collaboration Insights
 
+![Collaboration Insights: framed trait cards for Intent clarity, Evidence injection and Verification closure, beside the collab-progress and collab-coach skill names](docs/banner.svg)
+
 Two agent skills that show you **how you work with coding agents**, using your
 own local chat history. Nothing is uploaded.
 

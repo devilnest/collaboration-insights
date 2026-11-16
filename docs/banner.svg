@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="t d">
+  <title id="t">Collaboration Insights</title>
+  <desc id="d">Agent skills that turn your local chat history into private collaboration trait cards and per-chat coaching. Inspired by MEGA.dev.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#efede8" stroke-width="1"/>
+    </pattern>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#252529" flood-opacity=".14"/>
+    </filter>
+    <!-- One trait card: 240 x 336, origin at its centre -->
+    <g id="card-base">
+      <rect x="-120" y="-168" width="240" height="336" rx="14" fill="#fbf8f2" stroke="#252529" stroke-width="2"/>
+      <rect x="-108" y="-156" width="216" height="312" rx="8" fill="none" stroke="#aaa79f" stroke-width="1"/>
+      <path d="M-108 -128H108" stroke="#d7d5d0"/>
+    </g>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1280" height="640" fill="#ffffff"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1232" height="592" fill="none" stroke="#252529" stroke-width="2"/>
+  <rect x="32" y="32" width="1216" height="576" fill="none" stroke="#d7d5d0"/>
+
+  <!-- Left: wordmark -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3" fill="#66666b">
+    <text x="88" y="118">AGENT SKILLS · OPEN SOURCE · MIT</text>
+  </g>
+  <rect x="88" y="138" width="56" height="5" fill="#d92a24"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#252529">
+    <text x="84" y="232" font-size="86" letter-spacing="-2">Collaboration</text>
+    <text x="84" y="322" font-size="86" letter-spacing="-2">Insights<tspan fill="#d92a24">.</tspan></text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#66666b" font-style="italic">
+    <text x="88" y="382">See how you work with coding agents —</text>
+    <text x="88" y="414">from your own chats, kept on your machine.</text>
+  </g>
+
+  <!-- Skill chips -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="1">
+    <g transform="translate(88 452)">
+      <rect width="226" height="44" rx="4" fill="#252529"/>
+      <circle cx="22" cy="22" r="5" fill="#d92a24"/>
+      <text x="38" y="28" fill="#ffffff">collab-progress</text>
+    </g>
+    <g transform="translate(330 452)">
+      <rect width="200" height="44" rx="4" fill="#ffffff" stroke="#252529" stroke-width="2"/>
+      <circle cx="22" cy="22" r="5" fill="none" stroke="#d92a24" stroke-width="2"/>
+      <text x="38" y="28" fill="#252529">collab-coach</text>
+    </g>
+  </g>
+
+  <!-- Footer line -->
+  <path d="M88 540H600" stroke="#d7d5d0"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2.5" fill="#66666b">
+    <text x="88" y="572">24 TRAITS · 47 INDICATORS · LOCAL &amp; PRIVATE</text>
+    <text x="1192" y="572" text-anchor="end">INSPIRED BY <tspan fill="#d92a24">MEGA.DEV</tspan></text>
+  </g>
+
+  <!-- Right: fanned trait cards -->
+  <g font-family="Consolas, 'Courier New', monospace">
+
+    <!-- Back card: Context / Evidence lens -->
+    <g transform="translate(830 318) rotate(-11)" filter="url(#lift)">
+      <use href="#card-base"/>
+      <text x="-96" y="-138" font-size="12" letter-spacing="2" fill="#66666b">T09 · CONTEXT</text>
+      <g fill="none" stroke="#252529" stroke-width="2.5" stroke-linecap="round" transform="translate(0 -30)">
+        <rect x="-62" y="-62" width="124" height="124" rx="6" stroke="#aaa79f" stroke-width="1.5"/>
+        <circle cx="-8" cy="-8" r="30"/>
+        <circle cx="-8" cy="-8" r="20" stroke="#d92a24" stroke-dasharray="3 5"/>
+        <path d="M14 14l26 26"/>
+      </g>
+      <text x="0" y="86" font-family="Georgia, serif" font-size="23" text-anchor="middle" fill="#252529">Evidence injection</text>
+      <rect x="-28" y="100" width="56" height="3" fill="#d92a24"/>
+      <text x="0" y="136" font-size="14" text-anchor="middle" fill="#66666b">5 of 7 applied</text>
+    </g>
+
+    <!-- Middle card: Proof / Verification seal -->
+    <g transform="translate(1088 330) rotate(9)" filter="url(#lift)">
+      <use href="#card-base"/>
+      <text x="-96" y="-138" font-size="12" letter-spacing="2" fill="#66666b">T23 · PROOF</text>
+      <g fill="none" stroke="#252529" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -30)">
+        <path d="M0 -64L52 -44V4C52 36 28 56 0 66C-28 56 -52 36 -52 4V-44Z" stroke="#aaa79f" stroke-width="1.5"/>
+        <circle cx="0" cy="0" r="30"/>
+        <path d="M-14 0l9 10l19 -22" stroke="#d92a24" stroke-width="3.5"/>
+      </g>
+      <text x="0" y="86" font-family="Georgia, serif" font-size="23" text-anchor="middle" fill="#252529">Verification closure</text>
+      <rect x="-28" y="100" width="56" height="3" fill="#d92a24"/>
+      <text x="0" y="136" font-size="14" text-anchor="middle" fill="#66666b">8 of 10 applied</text>
+    </g>
+
+    <!-- Front card: Direction / Compass -->
+    <g transform="translate(960 300) rotate(-1)" filter="url(#lift)">
+      <use href="#card-base"/>
+      <text x="-96" y="-138" font-size="12" letter-spacing="2" fill="#66666b">T01 · DIRECTION</text>
+      <circle cx="84" cy="-142" r="6" fill="#d92a24"/>
+      <g fill="none" stroke="#252529" stroke-width="2.5" stroke-linecap="round" transform="translate(0 -30)">
+        <circle r="62" stroke="#aaa79f" stroke-width="1.5"/>
+        <circle r="66" stroke="#aaa79f" stroke-width="1" stroke-dasharray="1 6"/>
+        <circle r="44"/>
+        <path d="M0 -76v12M0 64v12M-76 0h12M64 0h12"/>
+        <path d="M0 -38L10 0L0 38L-10 0Z" fill="#252529"/>
+        <path d="M0 -38L10 0H-10Z" fill="#d92a24" stroke="#d92a24"/>
+        <circle r="4" fill="#fbf8f2"/>
+      </g>
+      <text x="0" y="86" font-family="Georgia, serif" font-size="23" text-anchor="middle" fill="#252529">Intent clarity</text>
+      <rect x="-28" y="100" width="56" height="3" fill="#d92a24"/>
+      <text x="0" y="136" font-size="14" text-anchor="middle" fill="#252529">↑ 6 of 8 applied</text>
+    </g>
+  </g>
+</svg>
