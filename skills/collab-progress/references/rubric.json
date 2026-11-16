@@ -1,0 +1,245 @@
+{
+  "version": "mega-private-v1",
+  "source": "Previously downloaded assessment runbook; definitions frozen 2026-10-26.",
+  "traits": [
+    {
+      "id": "T01",
+      "name": "Intent Clarity",
+      "definition": "openings name the desired outcome or observable target, not only actions.",
+      "eligible_when": "request whose intended outcome could have been stated.",
+      "indicators": [
+        "outcome-stated-at-opening"
+      ]
+    },
+    {
+      "id": "T02",
+      "name": "Problem Framing Altitude",
+      "definition": "symptom/problem/goal level; premature prescriptions abandoned when evidence contradicts.",
+      "eligible_when": "choosing or revising frame, cause, goal, or direction.",
+      "indicators": [
+        "problem-level-framing"
+      ]
+    },
+    {
+      "id": "T05",
+      "name": "Constraint Precision",
+      "definition": "boundaries, preserved behaviour, non-goals, prohibited actions explicit and honoured.",
+      "eligible_when": "meaningful scope/preservation/exclusion/reversibility/prohibition boundaries.",
+      "indicators": [
+        "constraints-stated-and-honored",
+        "reversible-boundary-stated"
+      ]
+    },
+    {
+      "id": "T06",
+      "name": "Falsifiable Acceptance",
+      "definition": "completion criteria checkable by command, measurement, or observable state.",
+      "eligible_when": "change/release/deliverable whose completion could be checked.",
+      "indicators": [
+        "acceptance-stated-before-work",
+        "acceptance-checkable-by-third-party",
+        "baseline-and-followup-measurement-observed"
+      ]
+    },
+    {
+      "id": "T04",
+      "name": "Context Anchoring",
+      "definition": "references resolve to real artifacts and get used.",
+      "eligible_when": "they supply or point to a resolvable reference.",
+      "indicators": [
+        "references-resolve-and-used"
+      ]
+    },
+    {
+      "id": "T09",
+      "name": "Evidence Injection",
+      "definition": "code/logs/traces/screenshots/measurements arrive when they distinguish hypotheses.",
+      "eligible_when": "decision/diagnosis/claim evidence could settle.",
+      "indicators": [
+        "evidence-injected-at-decision-point",
+        "evidence-source-used-before-requirement"
+      ]
+    },
+    {
+      "id": "T10",
+      "name": "Progressive Disclosure",
+      "definition": "context arrives while it can still influence decisions.",
+      "eligible_when": "multiple stages or timing-sensitive context.",
+      "indicators": [
+        "context-staged-not-dumped"
+      ]
+    },
+    {
+      "id": "T11",
+      "name": "Context Economy",
+      "definition": "volume/duplication/retrieval cost justified by outcome.",
+      "eligible_when": "retrieve/paste/repeat/compact with enough outcome signal.",
+      "indicators": [
+        "low-duplication-context"
+      ]
+    },
+    {
+      "id": "T12",
+      "name": "Durable Memory and Decision Provenance",
+      "definition": "decisions, rationale, rejected alternatives become durable.",
+      "eligible_when": "decision/standard/recurring correction that could outlive the session.",
+      "indicators": [
+        "decision-becomes-durable-artifact",
+        "rationale-recorded",
+        "measurement-used-before-next-decision"
+      ]
+    },
+    {
+      "id": "T03",
+      "name": "Agent State Modeling",
+      "definition": "accurate assumptions about what model/session/subagent/environment can see.",
+      "eligible_when": "crossing a visibility boundary.",
+      "indicators": [
+        "no-phantom-context-assumptions",
+        "session-boundary-awareness"
+      ]
+    },
+    {
+      "id": "T07",
+      "name": "Problem Understanding First",
+      "definition": "reproduce/trace/hypothesis-test before changing.",
+      "eligible_when": "failure/ambiguity/competing hypotheses before mutation.",
+      "indicators": [
+        "reproduction-before-repair",
+        "hypothesis-tested-before-mutation"
+      ]
+    },
+    {
+      "id": "T13",
+      "name": "Inspect-Before-Edit Discipline",
+      "definition": "search/reads/state checks before first change.",
+      "eligible_when": "mutation that could have been inspected first.",
+      "indicators": [
+        "inspection-before-first-mutation"
+      ]
+    },
+    {
+      "id": "T14",
+      "name": "Capability Provisioning",
+      "definition": "tools, permissions, credentials, environment access provided.",
+      "eligible_when": "task needs a capability to finish.",
+      "indicators": [
+        "capability-provisioned-before-need",
+        "external-capability-scoped"
+      ]
+    },
+    {
+      "id": "T15",
+      "name": "Delegation Judgment",
+      "definition": "subagents for separable/specialized/long/context-heavy work — not because available.",
+      "eligible_when": "separable work and delegation possible.",
+      "indicators": [
+        "delegation-user-initiated"
+      ]
+    },
+    {
+      "id": "T16",
+      "name": "Decomposition Skill",
+      "definition": "coherent units with complete scope and independently verifiable outputs.",
+      "eligible_when": "dividable into two+ units.",
+      "indicators": [
+        "units-independently-verifiable"
+      ]
+    },
+    {
+      "id": "T17",
+      "name": "Agent Brief Quality",
+      "definition": "delegated prompts carry intent, context, constraints, acceptance, exclusions, format, stop conditions.",
+      "eligible_when": "a brief you can evaluate was given. Briefs you wrote yourself are not applied unless they wrote or repeatedly corrected them.",
+      "indicators": [
+        "brief-restates-non-inheritable-context",
+        "brief-includes-stop-conditions"
+      ]
+    },
+    {
+      "id": "T19",
+      "name": "Parallelism Hygiene",
+      "definition": "worktrees/ownership/integration protect shared state.",
+      "eligible_when": "concurrent workers and isolation supported.",
+      "indicators": [
+        "worktree-isolation-for-concurrent-writes",
+        "ownership-no-collisions"
+      ]
+    },
+    {
+      "id": "T20",
+      "name": "Result Integration",
+      "definition": "delegated findings accepted/rejected/reconciled into one decision.",
+      "eligible_when": "returns required a final decision.",
+      "indicators": [
+        "returns-reconciled-into-decision"
+      ]
+    },
+    {
+      "id": "T08",
+      "name": "Root-Cause Orientation",
+      "definition": "evidence supports mechanism; symptom patches rejected; failure stops recurring.",
+      "eligible_when": "causal claim or repair choice that could be tested.",
+      "indicators": [
+        "mechanism-supported-by-evidence",
+        "symptom-patch-rejected",
+        "fix-does-not-recur"
+      ]
+    },
+    {
+      "id": "T18",
+      "name": "Decision Rights Allocation",
+      "definition": "what agent may decide, what needs approval, when to escalate.",
+      "eligible_when": "consequential choices, side effects, or autonomous action.",
+      "indicators": [
+        "decision-rights-stated",
+        "escalation-rules-stated"
+      ]
+    },
+    {
+      "id": "T21",
+      "name": "Feedback Specificity",
+      "definition": "corrections name expected vs actual, keep objective, carry evidence.",
+      "eligible_when": "correction/rejection/redirect after mismatch.",
+      "indicators": [
+        "correction-carries-evidence",
+        "correction-preserves-objective"
+      ]
+    },
+    {
+      "id": "T22",
+      "name": "Steering and Trust Calibration",
+      "definition": "intervention, autonomy, verification density track risk and performance.",
+      "eligible_when": "observable variation in risk/complexity/autonomy.",
+      "indicators": [
+        "autonomy-scaled-to-risk",
+        "verification-density-scaled-to-risk",
+        "product-risk-checkpoint-observed",
+        "diff-review-before-accept"
+      ]
+    },
+    {
+      "id": "T23",
+      "name": "Verification Closure and Independence",
+      "definition": "acceptance check after final change, channel that did not produce the claim.",
+      "eligible_when": "change/completion claim with a post-check path.",
+      "indicators": [
+        "acceptance-path-reruns-after-final-mutation",
+        "independent-verification-channel",
+        "human-review-supplements-synthetic-check"
+      ]
+    },
+    {
+      "id": "T24",
+      "name": "Recovery and Learning Discipline",
+      "definition": "reverse failed approaches, recognize repeats, make lessons durable.",
+      "eligible_when": "failed approach, repeated correction/check, or degraded thread.",
+      "indicators": [
+        "failing-approach-reversed",
+        "lesson-becomes-durable-change",
+        "manual-check-becomes-safeguard",
+        "strategic-restart"
+      ]
+    }
+  ]
+}

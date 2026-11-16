@@ -1,0 +1,6 @@
+interface:
+  display_name: "Collaboration Coach"
+  short_description: "Review this chat with concrete message references"
+  default_prompt: "Use $collab-coach to explain what I did well and which opportunities I missed in this chat, with message references."
+policy:
+  allow_implicit_invocation: true

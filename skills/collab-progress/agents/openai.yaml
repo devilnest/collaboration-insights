@@ -1,0 +1,6 @@
+interface:
+  display_name: "Private Collaboration Progress"
+  short_description: "Track private progress across Codex and Claude chats"
+  default_prompt: "Use $collab-progress to update my private collaboration statistics and show the latest progress report."
+policy:
+  allow_implicit_invocation: true

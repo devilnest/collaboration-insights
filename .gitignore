@@ -1,0 +1,19 @@
+# Private collaboration data: never commit.
+data/
+**/collab-progress/data/
+**/collab-progress/config.json
+inbox/
+*.sqlite
+*.packet.json
+*.review.json
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
